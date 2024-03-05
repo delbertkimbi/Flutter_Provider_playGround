@@ -24,8 +24,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => AddToCart()));
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const AddToCart()));
               },
               child: const Text("Goto Itmes"),
             )
